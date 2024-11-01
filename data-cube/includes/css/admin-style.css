@@ -1,0 +1,481 @@
+table.dc-table{border-radius: 5px;}  
+table.dc-table  th{background: #e6e6e6;}
+table.dc-table  td{line-height: 35px;}
+
+div#dc-wrapper{padding-right: 30px;}
+
+h2.dc-logo{background: url('../../images/logo.png') no-repeat; line-height: 48px; padding-left: 55px;}
+h3.dc-title{font-size: 1.3em; font-weight: normal;}
+h3.flat-form-title{color: #444;}
+
+.vertical-spacing{padding: 20px 0;}
+.left-spacing{margin-left: 20px;}
+
+span.required-field{color: red;}
+
+div#dc-prefix-results{display: none;}
+a.dc-bt-add-prefix{
+	background: url('../../images/add-icon.png') no-repeat; 
+	display: inline-block; 
+	line-height: 24px;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0 15px 20px;
+	padding: 0 30px; 
+	text-decoration: none;
+}
+
+a.dc-bt-delete-prefix{
+	background: url('../../images/delete-icon.png') no-repeat; 
+	color: red;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 35px;
+	text-decoration: none;
+}
+a.dc-bt-delete-prefix:hover{text-decoration: underline;}
+
+a.dc-bt-manage-prefixes{
+	background: url('../../images/config-icon.png') no-repeat; 
+	display: inline-block; 
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	padding: 0 35px; 
+	text-decoration: none;
+}
+a.dc-bt-manage-prefixes:hover, a.dc-bt-add-prefix:hover{text-decoration: underline;}
+
+a.dc-download-model{
+	background: url('../../images/download-icon.png') no-repeat;
+	display: block;
+	height: 35px;
+	width: 35px;
+}
+
+a.dc-edit-project{
+	background: url('../../images/edit-icon.png') no-repeat;
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+a.dc-delete-project{
+	background: url('../../images/delete-icon.png') no-repeat 5px 0;
+	color: red;
+	display: block;
+	font-weight: bold;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 35px;
+	text-decoration: none;
+}
+
+a.dc-edit-project span, a.dc-delete-project span{display: none;}
+
+a.dc-delete-column{
+	background: url('../../images/delete-icon.png') no-repeat 20px center;
+	color: red;
+	line-height: 24px;
+	float: right;
+	font-weight: bold;
+	margin-right: 20px;
+	padding-left: 50px;
+	text-decoration: none;
+}
+
+a.dc-delete-column:hover{color: red; text-decoration: underline;}
+
+a.dc-download-model span{display: none;}
+
+div.chosen-container{width: 200px !important;}
+
+.form-rouded{
+	background: #f9f9f9; 
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+h3.flat-form-title{
+	background: #e6e6e6 url('../../images/arrow-bottom.png') no-repeat right 15px center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 20px;
+	margin: 0;
+}
+
+h3.flat-form-title.close{border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+
+h3.flat-form-title.open{
+	background: #e6e6e6 url('../../images/arrow-up.png') no-repeat right 15px center;
+	border-bottom-left-radius: 0; 
+	border-bottom-right-radius: 0;
+}
+
+div#dc-wrapper h4{border-top: 2px solid #e6e6e6; padding: 10px 0 0 20px;}
+
+div#dc-help{
+	background-color: #DAF3F3;
+	border: 2px solid #06C2C2;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+div#dc-help h3{
+	color: #444; 
+	font-size: 15px; 
+	margin: 20px 0;
+}
+
+div#dc-help ul{list-style-position: inside; list-style-type: circle;}
+div#dc-help li.dc-title-help{list-style-type: none;}
+
+.flat-component{display: none;}
+
+.pure-form{padding: 20px 0;}
+
+.pure-form input[type="text"],
+.pure-form input[type="password"],
+.pure-form input[type="email"],
+.pure-form input[type="url"],
+.pure-form input[type="date"],
+.pure-form input[type="month"],
+.pure-form input[type="time"],
+.pure-form input[type="datetime"],
+.pure-form input[type="datetime-local"],
+.pure-form input[type="week"],
+.pure-form input[type="number"],
+.pure-form input[type="search"],
+.pure-form input[type="tel"],
+.pure-form input[type="color"],
+.pure-form select,
+.pure-form textarea {
+    padding: 0 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	line-height: 30px;
+	width: 300px;
+}
+
+.pure-form select#dc-delim{width: 58px;}
+
+.pure-form-aligned input,
+.pure-form-aligned textarea,
+.pure-form-aligned select,
+/* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
+.pure-form-aligned .pure-help-inline,
+.pure-form-message-inline {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+.pure-form-aligned textarea {
+    vertical-align: top;
+}
+
+/* Aligned Forms */
+.pure-form-aligned .pure-control-group {
+    margin-bottom: 0.5em;
+}
+.pure-form-aligned .pure-control-group label {	
+    display: inline-block;
+	padding-left: 20px;
+    vertical-align: middle;
+	font-weight: bold;
+    width: 100px;
+}
+.pure-form-aligned .pure-controls {
+    margin: 1.5em 0 0 10em;
+}
+
+/* Rounded Inputs */
+.pure-form input.pure-input-rounded,
+.pure-form .pure-input-rounded {
+    border-radius: 2em;
+    padding: 0.5em 1em;
+}
+
+/* Grouped Inputs */
+.pure-form .pure-group fieldset {
+    margin-bottom: 10px;
+}
+.pure-form .pure-group input {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    position: relative;
+    top: -1px;
+}
+.pure-form .pure-group input:focus {
+    z-index: 2;
+}
+.pure-form .pure-group input:first-child {
+    top: 1px;
+    border-radius: 4px 4px 0 0;
+}
+.pure-form .pure-group input:last-child {
+    top: -2px;
+    border-radius: 0 0 4px 4px;
+}
+.pure-form .pure-group button {
+    margin: 0.35em 0;
+}
+
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.pure-form input:not([type]) {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* Chrome (as of v.32/34 on OS X) needs additional room for color to display. */
+/* May be able to remove this tweak as color inputs become more standardized across browsers. */
+.pure-form input[type="color"] {
+    padding: 0.2em 0.5em;
+}
+
+
+.pure-form input[type="text"]:focus,
+.pure-form input[type="password"]:focus,
+.pure-form input[type="email"]:focus,
+.pure-form input[type="url"]:focus,
+.pure-form input[type="date"]:focus,
+.pure-form input[type="month"]:focus,
+.pure-form input[type="time"]:focus,
+.pure-form input[type="datetime"]:focus,
+.pure-form input[type="datetime-local"]:focus,
+.pure-form input[type="week"]:focus,
+.pure-form input[type="number"]:focus,
+.pure-form input[type="search"]:focus,
+.pure-form input[type="tel"]:focus,
+.pure-form input[type="color"]:focus,
+.pure-form select:focus,
+.pure-form textarea:focus {
+    outline: 0;
+    outline: thin dotted \9; /* IE6-9 */
+    border-color: #129FEA;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.pure-form input:not([type]):focus {
+    outline: 0;
+    outline: thin dotted \9; /* IE6-9 */
+    border-color: #129FEA;
+}
+
+.pure-form input[type="file"]:focus,
+.pure-form input[type="radio"]:focus,
+.pure-form input[type="checkbox"]:focus {
+    outline: thin dotted #333;
+    outline: 1px auto #129FEA;
+}
+.pure-form .pure-checkbox,
+.pure-form .pure-radio {
+    margin: 0.5em 0;
+    display: block;
+	width: 100% !important;
+}
+
+.pure-form input[type="text"][disabled],
+.pure-form input[type="password"][disabled],
+.pure-form input[type="email"][disabled],
+.pure-form input[type="url"][disabled],
+.pure-form input[type="date"][disabled],
+.pure-form input[type="month"][disabled],
+.pure-form input[type="time"][disabled],
+.pure-form input[type="datetime"][disabled],
+.pure-form input[type="datetime-local"][disabled],
+.pure-form input[type="week"][disabled],
+.pure-form input[type="number"][disabled],
+.pure-form input[type="search"][disabled],
+.pure-form input[type="tel"][disabled],
+.pure-form input[type="color"][disabled],
+.pure-form select[disabled],
+.pure-form textarea[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.pure-form input:not([type])[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+.pure-form input[readonly],
+.pure-form select[readonly],
+.pure-form textarea[readonly] {
+    background: #eee; /* menu hover bg color */
+    color: #777; /* menu text color */
+    border-color: #ccc;
+}
+
+.pure-form input:focus:invalid,
+.pure-form textarea:focus:invalid,
+.pure-form select:focus:invalid {
+    color: #b94a48;
+    border-color: #ee5f5b;
+}
+.pure-form input:focus:invalid:focus,
+.pure-form textarea:focus:invalid:focus,
+.pure-form select:focus:invalid:focus {
+    border-color: #e9322d;
+}
+.pure-form input[type="file"]:focus:invalid:focus,
+.pure-form input[type="radio"]:focus:invalid:focus,
+.pure-form input[type="checkbox"]:focus:invalid:focus {
+    outline-color: #e9322d;
+}
+.pure-form select {
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.pure-form select[multiple] {
+    height: auto;
+}
+.pure-form label {
+    margin: 0.5em 0 0.2em;
+}
+.pure-form fieldset {
+    margin: 0;
+    padding: 0.35em 0 0.75em;
+    border: 0;
+}
+.pure-form legend {
+    display: block;
+    width: 100%;
+    padding: 0.3em 0;
+    margin-bottom: 0.3em;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.pure-form input[type="file"]::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.pure-form input[type="file"]::before {
+  content: 'Select file';
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.pure-form input[type="file"]:hover::before {
+  border-color: black;
+}
+.pure-form input[type="file"]:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+/*============ Buttons ================*/
+
+/*csslint outline-none:false*/
+
+.pure-button {
+    font-family: inherit;
+    font-size: 100%;
+    *font-size: 90%; /*IE 6/7 - To reduce IE's oversized button text*/
+    *overflow: visible; /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
+    padding: 0.5em 1em;
+    color: #444; /* rgba not supported (IE 8) */
+    color: rgba(0, 0, 0, 0.80); /* rgba supported */
+    *color: #444; /* IE 6 & 7 */
+    border: 1px solid #999;  /*IE 6/7/8*/
+    border: none rgba(0, 0, 0, 0);  /*IE9 + everything else*/
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.pure-button-hover,
+.pure-button:hover,
+.pure-button:focus {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000',GradientType=0);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0,0,0, 0.05)), to(rgba(0,0,0, 0.10)));
+    background-image: -webkit-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+    background-image: -moz-linear-gradient(top, rgba(0,0,0, 0.05) 0%, rgba(0,0,0, 0.10));
+    background-image: -o-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+.pure-button:focus {
+    outline: 0;
+}
+.pure-button-active,
+.pure-button:active {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+}
+
+.pure-button[disabled],
+.pure-button-disabled,
+.pure-button-disabled:hover,
+.pure-button-disabled:focus,
+.pure-button-disabled:active {
+    border: none;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    filter: alpha(opacity=40);
+    -khtml-opacity: 0.40;
+    -moz-opacity: 0.40;
+    opacity: 0.40;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.pure-button-hidden {
+    display: none;
+}
+
+/* Firefox: Get rid of the inner focus border */
+.pure-button::-moz-focus-inner{
+    padding: 0;
+    border: 0;
+}
+
+.pure-button-primary,
+.pure-button-selected,
+a.pure-button-primary,
+a.pure-button-selected {
+    background-color: rgb(0, 120, 231);
+    color: #fff;
+	/*margin-left: 125px;*/
+}
